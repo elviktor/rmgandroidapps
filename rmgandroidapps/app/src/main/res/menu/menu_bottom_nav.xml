@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="@string/menu_title_read"
+            android:id="@+id/readFragment"
+            android:name="com.example.savannahschoolproject.ReadFragment"
+            android:icon="@drawable/ic_launcher_foreground"
+            />
+        <item
+            android:title="@string/menu_title_write"
+            android:id="@+id/writeFragment"
+            android:name="com.example.savannahschoolproject.WriteFragment"
+            android:icon="@drawable/ic_launcher_foreground"
+            />
+        <item
+            android:title="Search"
+            android:id="@+id/searchFragment"
+            android:name="com.example.savannahschoolproject.SearchFragment"
+            android:icon="@drawable/ic_launcher_foreground"
+            />
+        <item
+            android:title="Map"
+            android:id="@+id/mapFragment"
+            android:name="com.example.savannahschoolproject.MapFragment"
+            android:icon="@drawable/ic_launcher_foreground"
+            />
+        <item
+            android:title="About"
+            android:id="@+id/aboutFragment"
+            android:name="com.example.savannahschoolproject.AboutFragment"
+            android:icon="@drawable/ic_launcher_foreground"
+            />
+
+    </group>
+</menu>

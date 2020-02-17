@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">RMG Civil Rights Museum</string>
+    <string name="app_name">Savannah School Project</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_read_fragment">Hello read fragment</string>
+    <string name="hello_write_fragment">Hello write fragment</string>
+    <string name="hello_search_fragment">Hello search fragment</string>
+    <string name="hello_map_fragment">Hello map fragment</string>
+    <string name="hello_about_fragment">Hello about fragment</string>
+
+    <string name="menu_title_read">Read</string>
+    <string name="menu_title_write">Write</string>
+    <string name="menu_title_search">Search</string>
+    <string name="menu_title_map">Map</string>
+
+
+    <!-- Button Labels -->
+    <string name="button_write">Write</string>
 </resources>

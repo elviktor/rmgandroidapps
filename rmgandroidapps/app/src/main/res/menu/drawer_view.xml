@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:title="@string/menu_title_read"
+            android:id="@+id/readFragment"
+            android:name="com.example.savannahschoolproject.ReadFragment"
+            />
+        <item
+            android:title="@string/menu_title_write"
+            android:id="@+id/writeFragment"
+            android:name="com.example.savannahschoolproject.ReadFragment"
+            />
+</menu>

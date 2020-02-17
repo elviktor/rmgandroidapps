@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/readFragment">
+
+    <fragment
+        android:id="@+id/readFragment"
+        android:name="com.example.savannahschoolproject.ReadFragment"
+        android:label="fragment_read"
+        tools:layout="@layout/fragment_read"
+        android:title="@string/menu_title_read">
+        <action
+            android:id="@+id/action_readFragment_to_writeFragment"
+            app:destination="@id/writeFragment" />
+        <action
+            android:id="@+id/action_readFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_readFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_readFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.savannahschoolproject.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in">
+        <action
+            android:id="@+id/action_signInFragment_to_readFragment"
+            app:destination="@id/readFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/writeFragment"
+        android:name="com.example.savannahschoolproject.WriteFragment"
+        android:label="fragment_write"
+        tools:layout="@layout/fragment_write"
+        android:title="@string/menu_title_write"/>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.savannahschoolproject.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.savannahschoolproject.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.savannahschoolproject.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>

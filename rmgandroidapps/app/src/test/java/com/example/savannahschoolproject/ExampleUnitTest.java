@@ -1,4 +1,4 @@
-package com.example.rmgcivilrightsmuseum;
+package com.example.savannahschoolproject;
 
 import org.junit.Test;
 

@@ -1,1 +1,2 @@
 include ':app'
+rootProject.name='Savannah School Project'
